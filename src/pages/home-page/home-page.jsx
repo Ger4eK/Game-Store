@@ -47,21 +47,21 @@ const GAMES = [
     image: "/game-covers/rainbow_siege.jpg",
     title: "Tom Clancy's Rainbow Six® Siege",
     video: "https://www.youtube.com/embed/6wlvYh0h63k",
-    genres: ["Тактика", "Шутер"],
-    price: 982,
+    genres: ["Tactical", "Shooter"],
+    price: 12,
     id: 5,
     description:
-      "Tom Clancy's Rainbow Six Осада – это продолжение нашумевшего шутера от первого лица, разработанного студией Ubisoft Montreal.",
+      "Tom Clancy's Rainbow Six Siege is the latest installment of the acclaimed first-person shooter franchise developed by the renowned Ubisoft Montreal studio.",
   },
   {
     image: "/game-covers/assassins_creed_valhalla.png",
     title: "Assassin’s Creed Valhalla",
-    genres: ["Паркур", "РПГ", "Открытый мир"],
+    genres: ["Parkour", "RPG", "Open world"],
     video: "https://www.youtube.com/embed/ssrNcwxALS4",
-    price: 2863,
+    price: 32,
     id: 6,
     description:
-      "Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.",
+      "Assassin’s Creed Valhalla — is a multiplatform action/RPG video game developed by Ubisoft Montreal and published by Ubisoft. It is the twelfth installment in the Assassin's Creed series.",
   },
 ];
 

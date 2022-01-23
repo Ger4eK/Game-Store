@@ -7,7 +7,7 @@ import "./game-buy.css";
 export const GameBuy = ({ game }) => {
   const dispatch = useDispatch();
   const items = useSelector((state) => state.cart.itemsInCart);
-  //! Використовується для умови зміни кнопки 
+  //! Використовується для умови зміни кнопки
   const isItemInCart = items.some((item) => item.id === game.id);
 
   const handleClick = (e) => {
@@ -27,7 +27,7 @@ export const GameBuy = ({ game }) => {
         type={isItemInCart ? "secondary" : "primary"}
         onClick={handleClick}
       >
-        {isItemInCart ? "Remove from cart" : "Add"}
+        {isItemInCart ? "Remove" : "Add to card"}
       </Button>
     </div>
   );

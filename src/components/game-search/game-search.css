@@ -1,0 +1,19 @@
+.search__input {
+  border-radius: 15px;
+  border: none;
+  height: 21px;
+  width: 300px;
+  color: white;
+  padding-left: 10px;
+  background: black;
+  font-size: 16px;
+}
+
+.search__input::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}

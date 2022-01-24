@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import React from "react";
-import './button.css'
+import "./button.css";
 
 export const Button = ({ onClick, type, children, size = "s" }) => {
   const btnClass = classNames({
